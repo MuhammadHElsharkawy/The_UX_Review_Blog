@@ -281,7 +281,6 @@ header {
 
 /* MAIN */
 .main {
-  min-height: 100vh;
   background-color: #fff085;
   padding-block: 144px 64px;
   display: flex;
