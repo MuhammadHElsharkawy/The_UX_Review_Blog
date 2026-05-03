@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name
+      fs18="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>The UI Review Blog</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <div class="container">
+        <div class="navContent border2Black px24">
+          <a href="" class="navLogo fs30 lh38 fw8">
+            The UX
+            <span>Review</span>
+          </a>
+          <ul class="navLinks">
+            <li class="">
+              <a href="#home" class="fs14 fw6">HOME</a>
+            </li>
+            <i class="fa-solid fa-star fs12"></i>
+            <li class="">
+              <a href="#latestArticles" class="fs14 fw6">LATEST ARTICLES</a>
+            </li>
+            <i class="fa-solid fa-star fs12"></i>
+            <li class="">
+              <a href="#authors" class="fs14 fw6">AUTHORS</a>
+            </li>
+            <i class="fa-solid fa-star fs12"></i>
+            <li class="">
+              <a href="#community" class="fs14 fw6">COMMUNITY</a>
+            </li>
+          </ul>
+          <a href="" class="navSub border2Black fs14 fw6">SUBSCRIBE NOW</a>
+          <button
+            onclick="openSideNav()"
+            id="openSideNavBtn"
+            class="sideNavBtn border2Black boxShadow3Black fs24"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section id="SideNav" class="sideNavC hidden">
+      <div class="sideNavContent">
+        <div class="Content">
+          <div class="head">
+            <span class="fs24 fw9 lh32">MENU</span>
+            <button
+              onclick="closeSideNav()"
+              id="closeSideNavBtn"
+              class="border2Black fs20"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <ul class="Links">
+            <li>
+              <a href="#home" class="fs20 fw7">HOME</a>
+            </li>
+            <li>
+              <a href="#latestArticles" class="fs20 fw7">LATEST ARTICLES</a>
+            </li>
+            <li>
+              <a href="#authors" class="fs20 fw7">AUTHORS</a>
+            </li>
+            <li>
+              <a href="#community" class="fs20 fw7">COMMUNITY</a>
+            </li>
+          </ul>
+          <a href="" class="Sub fw7 border4Black boxShadow3Black fs18">
+            <i class="fa-solid fa-rocket"></i>
+            <span>SUBSCRIBE NOW</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN -->
+    <main id="home" class="main border2Black">
+      <div class="mainLeft"></div>
+      <div class="mainRight"></div>
+      <div class="mainBottom"></div>
+      <div class="container">
+        <div class="mainContent">
+          <div class="main_LeftC">
+            <div class="mainLabel boxShadow3Black fs14 fw7">🔥 TRENDING NOW</div>
+            <h2 class="fw9">
+              BRUTAL
+              <br />
+              <span class="redH2">THOUGHTS</span>
+              <br />
+              <span class="blueH2">BOLD IDEAS</span>
+            </h2>
+            <p class="mainP fs24 lh32 boxShadow3Black border2Black">
+              Raw, unfiltered content about tech, design, and culture. No
+              sugar-coating, just pure truth that hits different.
+            </p>
+            <div class="mainBtns">
+              <div class="mainBtnOuter">
+                <button class="startBtn fs20 fw7">
+                  <i class="fa-solid fa-rocket"></i>
+                  <span>START READING</span>
+                </button>
+              </div>
+              <div class="mainBtnOuter">
+                <button class="watchBtn fs20 fw7">
+                  <i class="fa-solid fa-play"></i>
+                  <span>WATCH INTRO</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="main_Right">
+            <div class="rightImageLabel fw7 boxShadow3Black border2Black">
+              FEATURED
+            </div>
+            <div class="mainImageOuter">
+              <img src="./Images/hero-image.png" alt="" class="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- LATEST ARTICLES -->
+    <section id="latestArticles" class="latestArticles border2Black py80">
+      <div class="container px24">
+        <div class="latestArticlesContent">
+          <div class="articlesGrid2">
+            <div class="Grid2Head">
+              <h3 class="">LATEST ARTICLES</h3>
+              <div class="headLabel fw7 boxShadow3Black">🔥 FRESH CONTENT</div>
+            </div>
+            <div class="articlesC">
+              <article class="border4Black boxShadow4Black new">
+                <div class="articleContent">
+                  <div class="articleImgOuter">
+                    <div class="articleImageLabel fw7 border2Black fs12">NEW</div>
+                    <img
+                      class="border2Black"
+                      src="./Images/user-engagement.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="articleTxtOuter">
+                    <div class="txtLabel fw7 fs12 border2Black boxShadow3Black">
+                      TECH
+                    </div>
+                    <h4 class="">Why Your Website Needs More Edge</h4>
+                    <p class="articleP">
+                      Exploring the psychological impact of bold, unapologetic
+                      design choices on user engagement and brand perception in
+                      the digital age.
+                    </p>
+                    <div class="articleInfo">
+                      <div class="infoItem grid3">
+                        <i class="fa-solid fa-user"></i>
+                        <span>BY ALEX BRUTAL</span>
+                      </div>
+                      <div class="infoItem grid2">
+                        <i class="fa-solid fa-calendar"></i>
+                        <span>JAN 8, 2025</span>
+                      </div>
+                      <div class="infoItem grid2">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>5 MIN READ</span>
+                      </div>
+                      <div class="infoItem grid1 articleLikes">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>127</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="border4Black boxShadow4Black hot">
+                <div class="articleContent">
+                  <div class="articleImgOuter">
+                    <div class="articleImageLabel fw7 border2Black fs12">HOT</div>
+                    <img
+                      class="border2Black"
+                      src="./Images/guide-to-typography.avif"
+                      alt=""
+                    />
+                  </div>
+                  <div class="articleTxtOuter">
+                    <div class="txtLabel fw7 fs12 border2Black boxShadow3Black">
+                      DESIGN
+                    </div>
+                    <h4 class="">Typography That Screams</h4>
+                    <p class="articleP">
+                      How to choose and implement bold typography that commands
+                      attention without sacrificing readability or user
+                      experience.
+                    </p>
+                    <div class="articleInfo">
+                      <div class="infoItem grid3">
+                        <i class="fa-solid fa-user"></i>
+                        <span>BY Arnold Reeve</span>
+                      </div>
+                      <div class="infoItem grid2">
+                        <i class="fa-solid fa-calendar"></i>
+                        <span>JAN 6, 2025</span>
+                      </div>
+                      <div class="infoItem grid2">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>7 MIN READ</span>
+                      </div>
+                      <div class="infoItem grid1 articleLikes">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>89</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="border4Black boxShadow4Black viral">
+                <div class="articleContent">
+                  <div class="articleImgOuter">
+                    <div class="articleImageLabel fw7 border2Black fs12">NEW</div>
+                    <img
+                      class="border2Black"
+                      src="./Images/anti-instagram.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="articleTxtOuter">
+                    <div class="txtLabel fw7 fs12 border2Black boxShadow3Black">
+                      CULTURE
+                    </div>
+                    <h4 class="">The Anti-Instagram Movement</h4>
+                    <p class="articleP">
+                      Young creators are abandoning polished feeds for raw,
+                      authentic content that celebrates imperfection and real
+                      human connection.
+                    </p>
+                    <div class="articleInfo">
+                      <div class="infoItem grid3">
+                        <i class="fa-solid fa-user"></i>
+                        <span>BY MIKE EDGE</span>
+                      </div>
+                      <div class="infoItem grid2">
+                        <i class="fa-solid fa-calendar"></i>
+                        <span>JAN 4, 2025</span>
+                      </div>
+                      <div class="infoItem grid2">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>4 MIN READ</span>
+                      </div>
+                      <div class="infoItem grid1 articleLikes">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>203</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="moreArticlesBtn">
+              <div class="outer">
+                <button class="fs20 fw7">
+                  <i class="fa-solid fa-plus"></i>
+                  <span>LOAD MORE ARTICLES</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="articlesGrid1">
+            <div class="sticky">
+              <div class="trendingList border4Black boxShadow4Black">
+                <h4 class="fs20 lh36 fw9">TRENDING NOW</h4>
+                <div class="trendings">
+                  <div class="trend trend1">
+                    <span class="fw9">01</span>
+                    <div class="">
+                      <h5 class="lh28 fs18">The Death of Minimalism</h5>
+                      <p class="fs14">12.5K reads • 🔥 Trending</p>
+                    </div>
+                  </div>
+                  <div class="trend trend2">
+                    <span class="fw9">02</span>
+                    <div class="">
+                      <h5 class="lh28 fs18">The Death of Minimalism</h5>
+                      <p class="fs14">12.5K reads • 🔥 Trending</p>
+                    </div>
+                  </div>
+                  <div class="trend trend3">
+                    <span class="fw9">03</span>
+                    <div class="">
+                      <h5 class="lh28 fs18">The Death of Minimalism</h5>
+                      <p class="fs14">12.5K reads • 🔥 Trending</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="categoriesList border4Black boxShadow4Black">
+                <h4 class="fs20 lh36 fw9">CATEGORIES</h4>
+                <div class="categories">
+                  <div class="category fw7 border2Black tech">TECH (24)</div>
+                  <div class="category fw7 border2Black design">DESIGN (18)</div>
+                  <div class="category fw7 border2Black culture">CULTURE (15)</div>
+                  <div class="category fw7 border2Black opinion">OPINION (12)</div>
+                  <div class="category fw7 border2Black tutorials">
+                    TUTORIALS (9)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUTHORS -->
+    <section id="authors" class="authors py80 border2Black">
+      <div class="authorsTop"></div>
+      <div class="authorsBottom"></div>
+      <div class="container px24">
+        <div class="authorsC">
+          <div class="pageHead">
+            <h3>MEET THE AUTHORS</h3>
+            <p class="fs20 fw6">The rebels behind the brutal truth</p>
+            <div class="headLine"></div>
+          </div>
+          <div class="authorsList">
+            <div class="author border4Black boxShadow6Black alex">
+              <div class="authorImgC">
+                <div class="imgLabel fw7 border2Black fs12">FOUNDER</div>
+                <img class="border4Black" src="./Images/avatar-2.jpg" alt="" />
+              </div>
+              <h4 class="fs30 fw9 lh36">ALEX BRUTAL</h4>
+              <p class="authorJob fw7">Tech Critic & Design Rebel</p>
+              <p class="authorDesc">
+                Destroying conventional wisdom one article at a time. 10+ years
+                fighting the good fight against boring design and corporate BS.
+              </p>
+              <div class="authorLinks">
+                <a href="" class="border2Black twitter">
+                  <i class="fa-brands fa-twitter fs18"></i>
+                </a>
+                <a href="" class="border2Black linkedin">
+                  <i class="fa-brands fa-linkedin fs18"></i>
+                </a>
+                <a href="" class="border2Black instagram">
+                  <i class="fa-brands fa-instagram fs18"></i>
+                </a>
+              </div>
+            </div>
+            <div class="author border4Black boxShadow6Black arnold">
+              <div class="authorImgC">
+                <div class="imgLabel fw7 border2Black fs12">LEAD</div>
+                <img class="border4Black" src="./Images/avatar-3.jpg" alt="" />
+              </div>
+              <h4 class="fs30 fw9 lh36">Arnold Reeve</h4>
+              <p class="authorJob fw7">UX Anarchist & Visual Provocateur</p>
+              <p class="authorDesc">
+                Challenging design norms and creating chaos that actually works.
+                Former corporate designer turned rebel with a cause.
+              </p>
+              <div class="authorLinks">
+                <a href="" class="border2Black twitter">
+                  <i class="fa-brands fa-twitter fs18"></i>
+                </a>
+                <a href="" class="border2Black linkedin">
+                  <i class="fa-brands fa-linkedin fs18"></i>
+                </a>
+                <a href="" class="border2Black instagram">
+                  <i class="fa-brands fa-instagram fs18"></i>
+                </a>
+              </div>
+            </div>
+            <div class="author border4Black boxShadow6Black mike">
+              <div class="authorImgC">
+                <div class="imgLabel fw7 border2Black fs12">VIRAL</div>
+                <img class="border4Black" src="./Images/avatar-8.jpg" alt="" />
+              </div>
+              <h4 class="fs30 fw9 lh36">MIKE EDGE</h4>
+              <p class="authorJob fw7">Cultural Critic & Trend Destroyer</p>
+              <p class="authorDesc">
+                Dissecting digital culture and exposing the truth behind viral
+                trends. No filter, just facts that cut through the noise.
+              </p>
+              <div class="authorLinks">
+                <a href="" class="border2Black twitter">
+                  <i class="fa-brands fa-twitter fs18"></i>
+                </a>
+                <a href="" class="border2Black linkedin">
+                  <i class="fa-brands fa-linkedin fs18"></i>
+                </a>
+                <a href="" class="border2Black instagram">
+                  <i class="fa-brands fa-instagram fs18"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REBELLION -->
+    <section id="community" class="rebellion py80">
+      <div class="container px24">
+        <div class="rebellionC">
+          <div class="pageHead">
+            <h3>JOIN THE REBELLION</h3>
+            <p class="fs20 fw6">Where rebels gather to change the digital world</p>
+            <div class="headLine"></div>
+          </div>
+          <div class="rebellionG">
+            <div class="rebellionGL">
+              <h4 class="fw9">BECOME PART OF SOMETHING BIGGER</h4>
+              <p class="border2Black boxShadow3Black fs20 fw6">
+                Join thousands of designers, developers, and digital rebels who
+                are tired of the same old boring content. Our community is where
+                raw ideas meet bold execution and real change happens.
+              </p>
+              <div class="rebellionGList">
+                <div class="rebellionGListItem fw6">
+                  <div class="icon check border2Black">
+                    <i class="fa-solid fa-check fs20"></i>
+                  </div>
+                  <span class="fs18"
+                    >Weekly brutal insights newsletter with exclusive
+                    content</span
+                  >
+                </div>
+                <div class="rebellionGListItem fw6">
+                  <div class="icon discord border2Black">
+                    <i class="fa-brands fa-discord fs20"></i>
+                  </div>
+                  <span class="fs18"
+                    >Exclusive community Discord access for real-time
+                    discussions
+                  </span>
+                </div>
+                <div class="rebellionGListItem fw6">
+                  <div class="icon star border2Black">
+                    <i class="fa-solid fa-star fs20"></i>
+                  </div>
+                  <span class="fs18"
+                    >Early access to new articles before they go public</span
+                  >
+                </div>
+                <div class="rebellionGListItem fw6">
+                  <div class="icon pen border2Black">
+                    <i class="fa-solid fa-pen fs20"></i>
+                  </div>
+                  <span class="fs18"
+                    >Submit your own brutal takes and get featured</span
+                  >
+                </div>
+              </div>
+              <div class="rebellionBtnC">
+                <div class="outer">
+                  <button class="fs24 lh32 fw7">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span>JOIN NOW - IT'S FREE</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="rebellionGR border4Black boxShadow6Black">
+              <h5 class="fs30 lh36 fw9">WHAT REBELS ARE SAYING</h5>
+              <div class="comments">
+                <div class="comment mark border2Black">
+                  <p class="mainp fw6 fs18">
+                    "Finally, a blog that tells it like it is. No corporate BS,
+                    just pure truth about what's really happening in tech. This
+                    is the wake-up call our industry needed."
+                  </p>
+                  <div class="commenter">
+                    <img
+                      class="border2Black"
+                      src="./Images/avatar-4.avif"
+                      alt=""
+                    />
+                    <div>
+                      <p class="name lh28 fw7 fs18">Mark T.</p>
+                      <p class="job fs14">Senior Designer at Meta</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment alex border2Black">
+                  <p class="mainp fw6 fs18">
+                    "The UX Review changed how I think about design. It's raw,
+                    honest, and exactly what our industry needs. Every article
+                    challenges my assumptions."
+                  </p>
+                  <div class="commenter">
+                    <img
+                      class="border2Black"
+                      src="./Images/avatar-5.jpg"
+                      alt=""
+                    />
+                    <div>
+                      <p class="name lh28 fw7 fs18">ALEX M.</p>
+                      <p class="job fs14">Lead Developer at Stripe</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment james border2Black">
+                  <p class="mainp fw6 fs18">
+                    "The most authentic voice in digital culture. Every article
+                    challenges my assumptions and makes me think differently
+                    about the work I do."
+                  </p>
+                  <div class="commenter">
+                    <img
+                      class="border2Black"
+                      src="./Images/avatar-6.avif"
+                      alt=""
+                    />
+                    <div>
+                      <p class="name lh28 fw7 fs18">James K.</p>
+                      <p class="job fs14">Creative Director at Adobe</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py80">
+      <div class="container px24">
+        <div class="footerC">
+          <div class="footerG">
+            <div class="footerReview">
+              <div class="head">
+                <div class="icon">
+                  <i class="fa-solid fa-pen-nib"></i>
+                </div>
+                <h1>THE UX REVIEW</h1>
+              </div>
+              <p class="fs18">
+                Raw, unfiltered thoughts on tech, design, and digital culture.
+                No compromise, no corporate speak, just brutal truth that
+                matters.
+              </p>
+            </div>
+            <div class="footerCategories">
+              <h4 class="fw9">CATEGORIES</h4>
+              <ul>
+                <li><a href="" class="fs18 fw6">TECH </a></li>
+                <li><a href="" class="fs18 fw6">DESIGN</a></li>
+                <li><a href="" class="fs18 fw6">CULTURE</a></li>
+                <li><a href="" class="fs18 fw6">OPINION</a></li>
+                <li><a href="" class="fs18 fw6">TUTORIALS</a></li>
+              </ul>
+            </div>
+            <div class="footerNews">
+              <h4 class="fw9">NEWSLETTER</h4>
+              <p class="">
+                Get brutal insights delivered weekly. No spam, just truth that
+                cuts through the noise.
+              </p>
+              <div class="footerForm">
+                <input
+                  class="fw7 fs18"
+                  type="email"
+                  placeholder="YOUR EMAIL ADDRESS"
+                />
+                <button class="border4Black fw7">SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+          <div class="footerB">
+            <p class="fw6">
+              © 2025 The UX Review. ALL RIGHTS RESERVED. STAY BRUTAL.
+            </p>
+            <div class="flinks">
+              <a href="">PRIVACY POLICY </a>
+              <a href="">TERMS OF USE</a>
+              <a href="">COOKIE POLICY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
