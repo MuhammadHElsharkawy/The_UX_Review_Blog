@@ -281,6 +281,7 @@ header {
 
 /* MAIN */
 .main {
+  min-height: 100vh;
   background-color: #fff085;
   padding-block: 144px 64px;
   display: flex;
@@ -316,7 +317,7 @@ header {
   }
 
   .container {
-    padding-inline: 32px;
+    padding-inline: 2rem;
   }
 
   .mainContent {
@@ -362,6 +363,7 @@ header {
 
       .mainBtns {
         display: flex;
+        flex-direction: column;
         align-items: center;
         gap: 16px;
         position: relative;
@@ -1008,8 +1010,9 @@ header {
             gap: 16px;
 
             .icon {
-              width: 48px;
-              height: 48px;
+              width: 3rem;
+              height: 3rem;
+              flex-shrink: 0;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -1052,7 +1055,7 @@ header {
           }
 
           button {
-            padding: 24px 48px;
+            padding: 1.5rem 3rem;
             background-color: black;
             color: white;
             display: flex;
