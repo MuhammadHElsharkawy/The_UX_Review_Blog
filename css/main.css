@@ -400,6 +400,11 @@ header {
           color: white;
         }
       }
+      @media (min-width: 40rem) {
+        .mainBtns {
+          flex-direction: row;
+        }
+      }
     }
 
     .main_Right {
